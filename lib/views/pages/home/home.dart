@@ -19,30 +19,64 @@ class _HomePageState extends State<HomePage> {
       body: SingleChildScrollView(
         child: Padding(
             padding: const EdgeInsets.symmetric(vertical: 50, horizontal: 20),
-            child: Row(children: [
-              Image.asset(
-                'assets/images/picture_ve.jpg',
-                width: 150,
-              ),
+            child: //il faut ajouter un enfant qui englobe les articles pour les mettre en colonne
+                Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+              Row(
+                children: [
+                  Image.asset(
+                    'assets/images/picture_ve.jpg',
+                    width: 150,
+                  ),
+                  const SizedBox(
+                    width: 16,
+                  ),
+                  const Expanded(
+                      child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                        Text(
+                          'La voiture 100% électrique vraiment pour tous ?',
+                          style: TextStyle(fontWeight: FontWeight.w800),
+                        ),
+                        SizedBox(
+                          height: 8,
+                        ),
+                        Text(
+                            'Dans cet article, je vous donnes mon avis et mes conseils autant pour la recharge que pour effectuer des longs trajets.'),
+                      ]))
+                ],
+              ), // on ferme le premier row=article
+              // on ajoute un espace entre les articles
               const SizedBox(
-                width: 16,
+                height: 20,
               ),
-              const Expanded(
-                  child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                    Text(
-                      'La voiture 100% électrique vraiment pour tous ?',
-                      style: TextStyle(fontWeight: FontWeight.w800),
-                    ),
-                    SizedBox(
-                      height: 8,
-                    ),
-                    Text(
-                        'Dans cet article, je vous donnes mon avis et mes conseils autant pour la recharge que pour effectuer des longs trajets.'),
-                  ]))
+// on ouvre le deuxieme row=article en DUR aussi pour visualiser le front
+              Row(
+                children: [
+                  Image.asset(
+                    'assets/images/picture_ve.jpg',
+                    width: 150,
+                  ),
+                  const SizedBox(
+                    width: 16,
+                  ),
+                  const Expanded(
+                      child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                        Text(
+                          'La voiture 100% électrique vraiment pour tous ?',
+                          style: TextStyle(fontWeight: FontWeight.w800),
+                        ),
+                        SizedBox(
+                          height: 8,
+                        ),
+                        Text(
+                            'Dans cet article, je vous donnes mon avis et mes conseils autant pour la recharge que pour effectuer des longs trajets.'),
+                      ]))
+                ],
+              ) // on ferme le deuxieme row=article
             ])),
-            
       ),
     );
   }
