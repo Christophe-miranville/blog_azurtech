@@ -12,12 +12,40 @@ class LoginPage extends StatelessWidget {
       body: const Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text('Pseudo ou Mail'),
-          Text('Mot de Passe'),
-          SizedBox(
-            height: 20,
+          Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text('Pseudo ou Mail'),
+              TextField(),
+              Text('Mot de Passe'),
+              TextField(),
+              SizedBox(
+                height: 20,
+              ),
+              Text('Se Connecter'),
+              // ElevatedButton(onPressed: () {
+              // ActionSubmitLogin },
+              // child: Text('Se Connecter'),
+            ],
           ),
-          Text('Se Connecter'),
+          Column(crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text('Pseudo'),
+            TextField(),
+            Text('Mail'),
+            TextField(),
+            Text('Mot de Passe'),
+            TextField(),
+            Text('Confirmation du Mot de Passe'),
+            TextField(),
+            SizedBox(
+              height: 20,
+            ),
+            Text('Création du Compte'),
+            // ElevatedButton(onPressed: () {
+            // ActionSubmitCreate },
+            // child: Text('Création du Compte'),
+          ])
         ],
       ),
     );
