@@ -1,3 +1,6 @@
+import 'package:blog_azurtech/views/pages/articles/article2.dart';
+import 'package:blog_azurtech/views/pages/articles/article3.dart';
+import 'package:blog_azurtech/views/pages/articles/articles.dart';
 import 'package:blog_azurtech/views/pages/home/home.dart';
 import 'package:flutter/material.dart';
 
@@ -10,10 +13,18 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       title: 'Mon Blog en Flutter',
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: const HomePage(),
+      initialRoute:'/' ,
+      routes: {
+        '/article_1':(context) => const Article1(),
+        '/article_2':(context) => const Article2(),
+        '/article_3':(context) => const Article3(),
+        // '/login' : (context) => const LoginPage(),
+
+      },
           );
   }
 }

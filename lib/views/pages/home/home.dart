@@ -24,7 +24,7 @@ class _HomePageState extends State<HomePage> {
                 Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
               GestureDetector(
                   onTap: () {
-                    Navigator.pushNamed(context, 'article_1');
+                    Navigator.pushNamed(context, '/article_1');
                   },
                   child: Row(
                     children: [
@@ -50,7 +50,7 @@ class _HomePageState extends State<HomePage> {
                               height: 8,
                             ),
                             Text(
-                                'Dans cet article, je vous donnes mon avis et mes conseils autant pour la recharge que pour effectuer des longs trajets.'),
+                                'Dans cet article, je vous donne mon avis et mes conseils autant pour la recharge que pour effectuer des longs trajets.'),
                           ]))
                     ],
                   ) // on ferme le premier row=article
@@ -62,7 +62,7 @@ class _HomePageState extends State<HomePage> {
 // on ouvre le deuxieme row=article en DUR aussi pour visualiser le front
               GestureDetector(
                   onTap: () {
-                    Navigator.pushNamed(context, 'article_2');
+                    Navigator.pushNamed(context, '/article_2');
                   },
                   child: Row(
                     children: [
@@ -99,7 +99,7 @@ class _HomePageState extends State<HomePage> {
 // on ouvre le troisieme row=article en DUR aussi pour visualiser le front
               GestureDetector(
                 onTap: () {
-                  Navigator.pushNamed(context, 'article_3');
+                  Navigator.pushNamed(context, '/article_3');
                 },
                 child: Row(
                   children: [
