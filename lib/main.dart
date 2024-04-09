@@ -1,6 +1,6 @@
 import 'package:blog_azurtech/views/pages/articles/article2.dart';
 import 'package:blog_azurtech/views/pages/articles/article3.dart';
-import 'package:blog_azurtech/views/pages/articles/articles.dart';
+import 'package:blog_azurtech/views/pages/articles/article1.dart';
 import 'package:blog_azurtech/views/pages/home/home.dart';
 import 'package:flutter/material.dart';
 

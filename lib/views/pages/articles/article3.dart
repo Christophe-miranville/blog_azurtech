@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class Article3 extends StatelessWidget {
   const Article3({super.key});
 
@@ -9,7 +8,7 @@ class Article3 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'L\'Hybride NON-RECH',
+          'L\'Auto-Rechargeable = Magie ?',
           overflow: TextOverflow.ellipsis,
         ),
       ),
@@ -25,7 +24,7 @@ class Article3 extends StatelessWidget {
                   width: 250,
                 ),
               ),
-                            const SizedBox(height: 10),
+              const SizedBox(height: 10),
               const Text(
                 'Attention ce n\'est que mon avis sur la question étant utilisateur depuis 2020 avec 4 véhicules différents et plus de 120 000kms',
                 style: TextStyle(fontStyle: FontStyle.italic),
@@ -33,24 +32,16 @@ class Article3 extends StatelessWidget {
               const SizedBox(height: 20),
               const Text('- Commençons par la recharge -'),
               const Text(
-                  'Si elle est possible à votre domicile: Vous habitez en maison individuelle alors vous avez la possibilité de faire installer soit une prise renforcée d\'une puissance de 3.7Kw, soit une borne en 7.4Kw en monophasé ou jusqu\'à 22Kw en triphasé.'),
-              const SizedBox(height: 10),
+                  'Aucune installation n\'requise, comme indiqué l\'hybride non rechargeable devrait s\'appeller l\'hybride autorechargeable. '),
               const Text(
-                  'CAUTIONLOGO - La plupart des VE charge soit à 7.4Kw, soit à 11Kw et rarement à 22Kw (Principalement la Zoé et la Twingo)'),
+                  'En effet, la batterie se recharge pendant que vous roulez avec un votre moteur thermique ainsi la batterie se recharge et se décharge afin d\'optimiser votre consommation thermique.'),
+              const Text(
+                  'Les 2 moteurs fonctionnent ensemble et souvent à bah régime c\'est l\'électrique qui prend le relais où le thermique consomme le plus, au démarrage par exemple ou en dessous de 50km/h'),
               const SizedBox(height: 10),
-              const Text('vous habitez en appartement et vous pensez que ce n\'est pas possible de faire insaller une prise ou une brine chez vous ?'),
-              const Text('Il faut savoir que depuis le [DATE], le droit à la prise a été voté [Source]'),
-              const SizedBox(height: 10),
-              const Text('- Quelques chiffres concernant la Recharge -'),
-              const Text('Pour une voiture possédant une batterie de 50Kw pour environ une autonomie de 400kms'),
-              const Text('Puissance de Recharge'),
-              const Text('Durée de recharge en Heures Creuses'),
-              const Text('3.7Kw'),
-              const Text('22H=>6H = 8H'),
-
               const Text('- Pour une utilisation Domicile <=> Travail'),
+              const Text('C\'est le cas le plus économique après la voiture 100% électrique même si la batterie tombe à 0% pendant le trajet elle se rechargera pendant les ralentissements, les freinages et les descentes.'),
+              const Text('A l\'achat les voitures hybrides non rechargeables sont moins chères à l\'achat'),
               const Text('- Pour une utilisation Long Trajet / Autoroute')
-
             ],
           ),
         ),
