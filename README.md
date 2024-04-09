@@ -3,14 +3,17 @@
 A new Flutter project.
 
 ## Getting Started
+BLOG PASSION
 
-This project is a starting point for a Flutter application.
+Lors d'une session de recrutement,
+Une entreprise m'a demandé de créer une application mobile en Flutter.
 
-A few resources to get you started if this is your first Flutter project:
+Avec en consignes :
+- Sujet : Une de nos passions (En ce moment les véhicules électriques)
+- Technologies : Flutter (en Dart), Provider, Django et JWT.
+- Règles : Respecter le MVC et le MVT.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+J'avais une semaine en partant de zéro, c'est à dire aucune conaissance dans aucune des technologies.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+J'aime reveler les défis donc : Let's GO !
+
