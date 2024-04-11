@@ -13,8 +13,16 @@ class AccountPage extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text('Vos informations'),
+          SizedBox(
+            height: 10,
+          ),
           Text('Pseudo'),
+          Text('DonnéePseudo'),
           Text('Mail'),
+          Text('DonnéeMail'),
+          SizedBox(
+            height: 10,
+          ),
           Text('Modifier votre Mot de Passe'),
           SizedBox(
             height: 20,
