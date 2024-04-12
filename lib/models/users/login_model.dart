@@ -1,8 +1,10 @@
-class LoginUser {
+import 'package:flutter/material.dart';
+
+class LoginModel extends ChangeNotifier{
   String? usernameOrEmail;
   String? password;
 
-  LoginUser({
+  LoginModel({
     this.usernameOrEmail,
     this.password,
   });
